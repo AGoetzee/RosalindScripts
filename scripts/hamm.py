@@ -5,8 +5,8 @@
 http://rosalind.info/problems/hamm/ 
 '''
 
-INFILE = open('data/rosalind_hamm.txt', 'r')
-OUTFILE = open('output/rosalind_hamm_sol.txt', 'w')
+INFILE = open('./data/rosalind_hamm.txt', 'r')
+OUTFILE = open('./output/rosalind_hamm_sol.txt', 'w')
 
 sequences = INFILE.readlines()
 sequence_length = len(sequences[1])

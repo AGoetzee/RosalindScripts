@@ -7,8 +7,8 @@ http://rosalind.info/problems/dna/
 
 import io
 
-INFILE = open('data/rosalind_dna.txt', 'rt')
-OUTFILE = open('output/rosalind_dna_sol.txt', 'w')
+INFILE = open('./data/rosalind_dna.txt', 'rt')
+OUTFILE = open('./output/rosalind_dna_sol.txt', 'w')
 
 # Read sequence
 seq = INFILE.read().replace(' ', '')

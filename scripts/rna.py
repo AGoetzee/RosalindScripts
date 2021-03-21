@@ -5,8 +5,8 @@
 http://rosalind.info/problems/rna/ 
 '''
 
-INFILE = open('data/rosalind_rna.txt', 'r')
-OUTFILE = open('output/rosalind_rna_sol.txt', 'w')
+INFILE = open('./data/rosalind_rna.txt', 'r')
+OUTFILE = open('./output/rosalind_rna_sol.txt', 'w')
 
 seq = INFILE.read().replace('T', 'U')
 

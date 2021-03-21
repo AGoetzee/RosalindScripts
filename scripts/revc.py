@@ -5,8 +5,8 @@
 http://rosalind.info/problems/revc/
 '''
 
-INFILE = open('data/rosalind_revc.txt', 'r')
-OUTFILE = open('output/rosalind_revc_sol.txt', 'w')
+INFILE = open('./data/rosalind_revc.txt', 'r')
+OUTFILE = open('./output/rosalind_revc_sol.txt', 'w')
 
 seq = INFILE.read()
 complement = ''
